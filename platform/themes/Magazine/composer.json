@@ -1,0 +1,27 @@
+{
+    "name": "sokeio/theme-magazine",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nguyen Van Hau",
+            "email": "nguyenvanhaudev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": ["SokeioTheme\\Magazine\\MagazineServiceProvider"],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+         "files": [
+            "helpers/constraint.php",
+            "helpers/function.php"
+        ],
+        "psr-4": {
+            "SokeioTheme\\Magazine\\": "src",
+            "SokeioTheme\\Magazine\\Database\\Factories\\": "database/factories",
+            "SokeioTheme\\Magazine\\Database\\Seeders\\": "database/seeders"
+        }
+    }
+}

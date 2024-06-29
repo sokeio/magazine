@@ -11,7 +11,11 @@
         "php": "^8.2",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
-        "sokeio/framework": "dev-main"
+        "sokeio/framework": "dev-main",
+        "sokeio/blog": "dev-main",
+        "sokeio/page": "dev-main",
+        "sokeio/seo": "dev-main",
+        "sokeio/comment": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

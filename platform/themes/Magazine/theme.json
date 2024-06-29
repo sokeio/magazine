@@ -1,0 +1,15 @@
+{
+    "id":"sokeio/theme-magazine",
+    "name": "Magazine",
+    "version":"v1.0.0",
+    "alias": "magazine",
+    "description": "",
+    "keywords": [],
+    "priority": 200,
+    "aliases": {},
+    "namespace":"SokeioTheme\\Magazine",
+    "parent": "blog",
+    "locations": [],
+    "layout":"",
+    "requires": []
+}
